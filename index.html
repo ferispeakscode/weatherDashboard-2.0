@@ -121,6 +121,11 @@
             
         }
 
+        function changeHeading(newHeading) {
+            let heading = document.querySelector("h1");
+            heading.innerHTML = newHeading;
+        }
+
         changeCityButton = document.querySelector("button");
         changeCityButton.addEventListener("click", changeCity);
     </script>
